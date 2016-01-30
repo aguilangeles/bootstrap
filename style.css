@@ -1,0 +1,70 @@
+
+#presentacion{
+	padding-top: 80px;
+	text-align: center;
+}
+.nombre{
+	font-size: 53px;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#role{
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#profile-icon-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 285px;
+			
+}
+.profile-hr, #portfolio .black-hr, #aboutme .aboutme-hr{
+	border: 0;
+	background-color: #FFF;
+	height: 5px;
+}
+.container img{
+	height: 260px;
+	width: 360px;
+	margin: 10px 5px;
+}
+#portfolio{
+	text-align: center;
+}
+#aboutme{
+	text-align: center;
+}
+#boton{
+	text-align: center;
+}
+
+.boton {
+
+	color:#FFF;
+	height: 70px;
+	width: 160px;
+	font-size: 20px;
+	background:rgb(40,187,156);
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	padding:15px 15px;
+}
+.social  ul li{
+	display: inline;
+	margin: 0 5px 0 5px;
+}
+.circle{
+	font-size: 2em;
+	position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+	border:2px solid white; 
+	border-radius:50%;
+}
