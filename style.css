@@ -101,9 +101,6 @@ text-transform: uppercase;
 	margin: 2px 0 2px 0;
 }
 
-
-
-
 .btn-default{
 	background:rgb(40,187,156);padding-top: 50px;
 	text-align: center;
@@ -118,33 +115,31 @@ text-transform: uppercase;
 	padding:15px 15px;
 }
 
-button {
-	
-}
+
 /*====================================================================
 				ASIDE
 ======================================================================*/
-aside{
-	padding-top: 20px;
-	min-height: 250px;
+/*aside{
+	
 	background-color: rgb(45,62,79);
 }
 .aside-info{
 	margin-left: 100px;
 	margin-right: 100px;
+}*/
+footer{padding-top: 20px;
+	min-height: 250px;
+	background-color: rgb(45,62,79);
 }
 #address, #contacto, #social{
 	font-size: 30px;
 }
 .address{ 
-	width: 20%; 
-	float: left;
+
 	text-align: center;
 }
 .social{ 
-	margin: auto;	
-	width: 60%; 
-	float: left;
+	
 	text-align: center;
 
 }
@@ -155,8 +150,8 @@ aside{
 
 .contactme{ 
 	text-align: center;
-	width: 20%; 
-	float: right;
+	
+	
 }
 .contactme a{
 	text-transform: lowercase;
@@ -181,11 +176,9 @@ aside{
 				FOOTER
 ======================================================================*/
 
-footer{
-	clear: both;
-}
+
 .copyright p{
-	margin:0;
+	
 	padding-top: 5px;
 	height:30px;
 	background-color: #243240;
