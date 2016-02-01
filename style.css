@@ -1,48 +1,151 @@
 
+/*FullStack Developer -tarea de la primer semana
+	 Reproducir lo mas fielmente posible el template dado.
+	 23-01-2016*/
+/*====================================================================
+				HEADER
+======================================================================*/
+body{
+	color:white;
+	font-family:'Lato';
+}
+.container-fluid {
+	
+	background-color: rgb(45,62,79);
+	padding-left: 100px;
+	padding-right: 100px;
+	min-height: 100px;
+}
+
+.navbar-default .navbar-brand{
+	font-size: 35px;
+	color: white;
+
+    padding-top: 32px;
+
+
+}
+.navbar-default .navbar-nav>li>a {
+	color:white;
+	font-size: 20px;
+	
+    padding-top: 32px;
+
+}
+
+
+
+.navbar-default .navbar-brand, .nombre, .social, .address, .contactme, #portfolio, .aboutme, .navbar-default .navbar-nav>li>a{
+text-transform: uppercase;
+}
+/*====================================================================
+				PRESENTACION
+======================================================================*/
 #presentacion{
-	padding-top: 80px;
+	padding: 150px 0 90px 0;
+	min-height: 300px;
 	text-align: center;
+	background-color: rgb(40,187,156);
 }
 .nombre{
 	font-size: 53px;	
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
 #role{
 	font-size: 25px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 
 }
+/*====================================================================
+				PORTFOLIO
+======================================================================*/
+#portfolio{
+	padding: 50px 0 80px 0;
+	text-align: center;
+	color:black;
+}
 
-#profile-icon-container {
+
+#portfolio p{
+	font-size: 40px;
+	padding-top:30px;
+	text-align: center;
+	color:black;
+	text-align: center;
+	margin: 0px;
+}
+
+.container{
 	margin-left: auto;
 	margin-right: auto;
-	width: 285px;
-			
-}
-.profile-hr, #portfolio .black-hr, #aboutme .aboutme-hr{
-	border: 0;
-	background-color: #FFF;
-	height: 5px;
+	width: 1100px;
 }
 .container img{
 	height: 260px;
 	width: 360px;
 	margin: 10px 5px;
 }
-#portfolio{
-	text-align: center;
+.column-left, .column-right, .column-center{ 
+ 	width: 30%; 
 }
-#aboutme{
-	text-align: center;
+.column-left{ 
+	float: left; 
 }
-#boton{
+.column-right{ 
+	float: right; 
+}
+.column-center{ 
+	display: inline-block; 
+}
+
+/*====================================================================
+				PORTFOLIO
+======================================================================*/
+#aboutme{	
+	min-height: 400px;
+	text-align: center;
+	background-color: rgb(40,187,156);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.aboutme{
+	font-size: 35px;
+	margin: 2px 0 2px 0;
+}
+
+.text-container{
+
+	min-height: 150px; 
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+.left{
+	text-align: left;
+	width: 49%;
+	float: left;
+	font-size: 17px;
+
+}
+
+.right{
+
+	text-align: left;
+	width: 49%;
+	float: right;
+	font-size: 17px;
+}
+
+.boton{
+	padding-top: 50px;
 	text-align: center;
 }
 
-.boton {
-
+.boton button{
 	color:#FFF;
 	height: 70px;
 	width: 160px;
@@ -53,10 +156,48 @@
 	border-radius: 5px;
 	padding:15px 15px;
 }
+/*====================================================================
+				ASIDE
+======================================================================*/
+aside{
+	padding-top: 20px;
+	min-height: 250px;
+	background-color: rgb(45,62,79);
+}
+.aside-info{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#address, #contacto, #social{
+	font-size: 30px;
+}
+.address{ 
+	width: 20%; 
+	float: left;
+	text-align: center;
+}
+.social{ 
+	margin: auto;	
+	width: 60%; 
+	float: left;
+	text-align: center;
+
+}
 .social  ul li{
 	display: inline;
 	margin: 0 5px 0 5px;
 }
+
+.contactme{ 
+	text-align: center;
+	width: 20%; 
+	float: right;
+}
+.contactme a{
+	text-transform: lowercase;
+	color:rgb(40,187,156);;
+	text-decoration: none;
+} 
 .circle{
 	font-size: 2em;
 	position: relative;
@@ -68,3 +209,80 @@
 	border:2px solid white; 
 	border-radius:50%;
 }
+.circle a {
+	color: white;
+}
+/*====================================================================
+				FOOTER
+======================================================================*/
+
+footer{
+	clear: both;
+}
+.copyright p{
+	margin:0;
+	padding-top: 5px;
+	height:30px;
+	background-color: #243240;
+	text-align:center;
+}
+
+/*====================================================================
+	ICONO ESTRELLA
+======================================================================*/
+#profile-icon-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 285px;
+			
+}
+.profile-hr, #portfolio .black-hr, #aboutme .aboutme-hr{
+	border: 0;
+	background-color: #FFF;
+	height: 5px;
+}
+
+#profile-line-left, #profile-line-right, #black-line-left, 
+#black-line-right ,#aboutme-line-left,#aboutme-line-right{
+	padding-top: 6px;
+	width: 43%;
+}
+#profile-line-left, #black-line-left, #aboutme-line-left {
+	float: left;
+}
+#profile-line-right, #black-line-right, #aboutme-line-right{
+	float: right;	
+}
+
+/*---------------------------------*/
+
+#portfolio .black-hr{
+	background-color: #000;
+}
+#portfolio #black-icon-container{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 230px;
+	
+}
+
+/*--------------------------------*/
+#aboutme .aboutme-hr{
+	height: 2px;
+}
+
+#aboutme #aboutme-icon-container{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 140px;
+	
+}
+#aboutme-line-left,#aboutme-line-right{
+	padding-top: 2px;
+}
+
+/*====================================================================
+	ICONO ESTRELLA FIN
+======================================================================*/
