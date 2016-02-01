@@ -1,7 +1,5 @@
 
-/*FullStack Developer -tarea de la primer semana
-	 Reproducir lo mas fielmente posible el template dado.
-	 23-01-2016*/
+/*FullStack Developer mismo template de la tarea uno, pero esta vez con Bootstrap*/
 /*====================================================================
 				HEADER
 ======================================================================*/
@@ -20,14 +18,13 @@ body{
 .navbar-default .navbar-brand{
 	font-size: 30px;
 	color: white;
-    padding-top: 32px;
+    
 
 }
 .navbar-default .navbar-nav>li>a {
 	color:white;
 	font-size: 20px;	
-    padding-top: 32px;
-
+    
 }
 
 
