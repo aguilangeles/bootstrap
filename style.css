@@ -14,11 +14,11 @@ body{
 	background-color: rgb(45,62,79);
 	padding-left: 100px;
 	padding-right: 100px;
-	min-height: 100px;
+	min-height: 80px;
 }
 
 .navbar-default .navbar-brand{
-	font-size: 35px;
+	font-size: 30px;
 	color: white;
     padding-top: 32px;
 
@@ -127,8 +127,9 @@ text-transform: uppercase;
 	margin-left: 100px;
 	margin-right: 100px;
 }*/
-footer{padding-top: 20px;
-	min-height: 250px;
+footer{
+	padding-top: 20px;
+	min-height: 180px;
 	background-color: rgb(45,62,79);
 }
 #address, #contacto, #social{
@@ -142,6 +143,9 @@ footer{padding-top: 20px;
 	
 	text-align: center;
 
+}
+.social ul {
+	padding-left: 0;
 }
 .social  ul li{
 	display: inline;
@@ -178,7 +182,7 @@ footer{padding-top: 20px;
 
 
 .copyright p{
-	
+	padding: 5px 0 0 0;
 	padding-top: 5px;
 	height:30px;
 	background-color: #243240;
